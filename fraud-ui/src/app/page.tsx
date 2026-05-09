@@ -21,7 +21,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/")
+    fetch("https://deepaudit-api-de9j.onrender.com/")
       .then(() => setStatus("online"))
       .catch(() => setStatus("offline"));
   }, []);
